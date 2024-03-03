@@ -20,11 +20,11 @@ st.exception(exp)
 
 st.image(Image.open("cat.jpeg"), width=200)
 
-show = st.radio("Select ", ("Bilaal", "Guddi"))
-if(show == "Bilaal"):
-    st.success("Bilaal it is :)")
+show = st.radio("Select ", ("Mumbai", "Pune"))
+if(show == "Mumbai"):
+    st.success("Mumbai it is :)")
 else:
-    st.success("Guddi it is :)")
+    st.success("Pune it is :)")
 
 show1 = st.multiselect("Select ! ",
                      ['kofta Biryani', 'Tehri', 'Turkish Shawarma' ,'Chicken Afgan','Chicken 65'])
